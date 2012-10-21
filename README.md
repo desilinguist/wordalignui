@@ -1,7 +1,7 @@
 wordalignui
 ===========
 
-This is a simple Java application for creating bilingual word alignments. I wrote this when I was in graduate school and working on bilingual word alignments for my research in statistical machine translation. A detailed manual for how to use the application is in 'doc/manual.htm'.
+This is a simple Java application for creating bilingual word alignments. It was originally written by [Rebecca Hwa](http://www.cs.pitt.edu/~hwa/). I modified it to add some new functionality while working on bilingual word alignments for my research in statistical machine translation in graduate school. A detailed manual for how to use the application is in 'doc/manual.htm'. Note that this application is based heavily
 
 [![screenshot](https://raw.github.com/desilinguist/wordalignui/master/doc/MakeLink.gif)](#screenshot)\
 
