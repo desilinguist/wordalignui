@@ -1,14 +1,7 @@
 <project name="AlignUI" default="dist" basedir=".">
 	<property name="src" location="src"/>
-	<property name="lib" location="lib"/>
 	<property name="build" location="build"/>
 	<property name="dist" location="dist"/>
-
-        <path id="classpath">
-             <fileset dir="${lib}">
-                 <include name="*.jar" />
-             </fileset>
-        </path>
 	
  	<target name="init">
     	<!-- Create the time stamp -->
@@ -19,15 +12,15 @@
 
 	<target name="compile" depends="init" description="compile the source " >
 		<!-- Compile the java code from ${src} into ${build} -->
-		<javac srcdir="${src}" destdir="${build}" classpathref="classpath"/>
+		<javac srcdir="${src}" destdir="${build}"/>
 	</target>
 
 	<target name="dist" depends="compile" description="generate the distribution" >
 		<!-- Create the distribution directory -->
-		<mkdir dir="${dist}/lib"/>
+		<mkdir dir="${dist}"/>
 
 		<!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
-		<jar jarfile="${dist}/lib/alignui.jar" basedir="${build}">
+		<jar jarfile="${dist}/alignui.jar" basedir="${build}">
 			<manifest>
 				<attribute name="Main-class" value="AlignFrame"/>
 		    </manifest>
