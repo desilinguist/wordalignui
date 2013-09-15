@@ -11,3 +11,7 @@ so I am finally putting it up on github. Even though the tool could be improved,
 
 http://scholar.google.com/scholar?oi=bibs&hl=en&cites=3833423159317156079
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/desilinguist/wordalignui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
