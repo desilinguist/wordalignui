@@ -1,6 +1,9 @@
 wordalignui
 ===========
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/desilinguist/wordalignui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
 This is a simple Java application for creating bilingual word alignments. It was originally written by [Rebecca Hwa](http://www.cs.pitt.edu/~hwa/). I modified it to add some new functionality while working on bilingual word alignments for my research in statistical machine translation in graduate school. A detailed manual for how to use the application is in 'doc/manual.htm'. 
 
 [![screenshot](https://raw.github.com/desilinguist/wordalignui/master/doc/MakeLink.gif)](#screenshot)\
@@ -11,7 +14,4 @@ so I am finally putting it up on github. Even though the tool could be improved,
 
 http://scholar.google.com/scholar?oi=bibs&hl=en&cites=3833423159317156079
 
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/desilinguist/wordalignui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
